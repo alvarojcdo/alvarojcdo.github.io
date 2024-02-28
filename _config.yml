@@ -8,7 +8,8 @@
 
 # Basic Site Settings
 locale                   : "pt-BR"
-title                    : "Your Name / Site Title"
+# languages                : ["pt-br", "en"]
+title                    : "Alvaro Cardoso"
 title_separator          : "-"
 name                     : &name "Alvaro Cardoso"
 description              : &description "personal description"
@@ -24,8 +25,8 @@ author:
   avatar           : "profile.png"
   name             : "Alvaro Cardoso"
   pronouns         : # example: "she/her"  
-  bio              : "Data Analyst"
-  location         : "Brasil"
+  bio              : "Analista de Dados"
+  location         : "Blumenau, Brasil"
   employer         : # "Red Brick University"
   uri              : # URL
   email            : "alvarojcdo@gmail.com" 
@@ -289,6 +290,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  # - jekyll-multiple-languages-plugin
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
